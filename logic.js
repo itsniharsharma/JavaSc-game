@@ -31,10 +31,10 @@ const compScorePara=document.querySelector("#comp-score");
 
 //---------------------------------------------------------------  1.0
 
-minorChoice.forEach((childDiv)=>{
+minorChoice.forEach((element)=>{
     //adding event listener
-    childDiv.addEventListener("click",()=>{
-        let userChoice=childDiv.getAttribute("id");
+    element.addEventListener("click",()=>{
+        let userChoice=element.getAttribute("id");
         // console.log(userChoice); //toggle to see in devConsole
 
         playGame(userChoice);  //developing this function
