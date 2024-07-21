@@ -65,7 +65,18 @@ Logics.js:
     - Math.random()*3------> (0,3)
     - rndIdx= Math.floor(Math.random()*3), Math.floor() is type of gif function
     - return optionArray[rndIdx];
-      
+
+  - Now the main part of program, the executional function playGame(userChoice)
+     - It takes userChoice as parameter
+     - say, userWin=true;
+     - edge case, if userChoice==compChoice, drawGame();
+     - else{
+        if(userChoice=='rock'){
+           userWin= compChoice=="paper" ? false:true;
+           - and all other similar comparisions <br>
+           - showWinner(userWin(now it either true/false))
+          }
+       }  
       
 
 
