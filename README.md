@@ -55,6 +55,17 @@ Logics.js:
       - putting userChoice in a function <br>
       - playGame(userChoice); <br>
    }
+
+ - User had generated his choice, now lets computer make its choice
+    - genCompChoice
+    - options comp have---> #rock,paper,scissor
+    - make it's array, optionArray=["rock","paper","scissor"];
+    - each option have an index
+    - on each runtime, Maths.random() produce vale between (0,1)
+    - Math.random()*3------> (0,3)
+    - rndIdx= Math.floor(Math.random()*3), Math.floor() is type of gif function
+    - return optionArray[rndIdx];
+      
       
 
 
