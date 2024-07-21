@@ -70,13 +70,15 @@ Logics.js:
      - It takes userChoice as parameter
      - say, userWin=true;
      - edge case, if userChoice==compChoice, drawGame();
-     - else{
-        if(userChoice=='rock'){
+     - else{ <br>
+        if(userChoice=='rock'){  <br>
            userWin= compChoice=="paper" ? false:true;
            - and all other similar comparisions <br>
-           - showWinner(userWin(now it either true/false))
-          }
-       }  
+           - showWinner(userWin(now it either true/false)) <br>
+          }  <br>
+       }
+
+    
       
 
 
