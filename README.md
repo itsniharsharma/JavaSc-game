@@ -87,7 +87,7 @@ Logics.js:
 
 
 Hence here we completed the overall analysis. I hope it's helpful and if you like my work, we can connect for further stuff, checkout <br>
-<link> https://www.instagram.com/itsniharsharma/ </link>
+<link> https://www.instagram.com/itsniharsharma/ </link> <br>
 <link> https://www.instagram.com/itsniharsharma/ </link>
       
 
