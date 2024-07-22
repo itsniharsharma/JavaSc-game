@@ -77,9 +77,18 @@ Logics.js:
            - showWinner(userWin(now it either true/false)) <br>
           }  <br>
        } <br>
-     - 
+  - So, what do we want when user is winner or comp is winner? Ofc we want to display a message and increse the score of indivisual
+  - so, let showWinner(userWin)=>{}
+  - inside it, if say userWin then, userScore++;
+  - and msg.innerText="You win!";
+  - msg.style.backgroundColor="rgb(114,227,145)";
 
-    
+  - And at the end, else{} statement
+
+
+Hence here we completed the overall analysis. I hope it's helpful and if you like my work, we can connect for further stuff, checkout <br>
+<link> https://www.instagram.com/itsniharsharma/ </link>
+<link> https://www.instagram.com/itsniharsharma/ </link>
       
 
 
